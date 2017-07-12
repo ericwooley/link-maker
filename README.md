@@ -9,7 +9,7 @@ Enter in a link that you can click, for easy testing of android intents, but may
 Webapp code
 =============
 <div/>
-<input id="url" placeholder="Enter url" style="display: block; padding: 10;" />
+<input id="url" placeholder="Enter url" style="display: block; padding: 10px 0 10px 0; width: 100%" />
 <a id="link" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;"> - GO - </a>
 <a id="permalink" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;" href=""></a>
 <script type="text/javascript">
