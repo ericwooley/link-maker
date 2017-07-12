@@ -3,8 +3,8 @@
 JS coming soon
 
 <input id="url" placeholder="Enter url" />
-<a id="link" style="display: block; padding: 10; border: 1px solid; text-align: ceter;"> - GO - </a>
-<a id="permalink" style="display: block; padding: 10; border: 1px solid; text-align: ceter;"></a>
+<a id="link" style="display: block; padding: 10; border: 1px solid; text-align: center;"> - GO - </a>
+<a id="permalink" style="display: block; padding: 10; border: 1px solid; text-align: center;" href=""></a>
 <script type="text/javascript">
 var params = (new URL(location)).searchParams;
 var input = document.getElementById('url')
