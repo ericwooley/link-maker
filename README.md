@@ -1,6 +1,10 @@
 ## Link maker
+Enter in a link that you can click, for easy testing of android intents, but maybe you would like to use it for something else?
 
-JS coming soon
+[Open here](https://ericwooley.github.io/link-maker)
+
+
+-- Ignore the stuff below this.
 
 <input id="url" placeholder="Enter url" />
 <a id="link" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;"> - GO - </a>
