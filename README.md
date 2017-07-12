@@ -2,6 +2,8 @@
 
 JS coming soon
 
+<input id="url" placeholder="Enter url" />
+
 <script type="text/javascript">
-alert('works')
+
 </script>
