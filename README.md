@@ -1,14 +1,10 @@
 <div id="readme">
 ## Link maker
-Enter in a link that you can click, for easy testing of android intents, but maybe you would like to use it for something else?
-
-[Open here](https://ericwooley.github.io/link-maker)
-
--- Ignore the stuff below this. Unless you are on the web page.
-
-Webapp code
-=============
+Enter in a link that you can click, for easy testing of android intents, but maybe you would like to use it for something else?<br />
+[Open here](https://ericwooley.github.io/link-maker)<br />
+-- Ignore the stuff below this
 <div/>
+<hr />
 <input id="url" placeholder="Enter url" style="display: block; padding: 10px 0 10px 0; width: 100%" />
 <a id="link" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;"> - GO - </a>
 <a id="permalink" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;" href=""></a>
