@@ -9,12 +9,12 @@ Enter in a link that you can click, for easy testing of android intents, but may
 <a id="link" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;"> - GO - </a>
 <a id="permalink" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;" href=""></a>
 <script type="text/javascript">
-var params = (new URL(location)).searchParams;
+var getParam = location.href.split('?default=')[1]
 var input = document.getElementById('url')
 var link = document.getElementById('link')
 var permaLink = document.getElementById('permalink')
-link.href = decodeURIComponent(params.get('default'))
-input.value = decodeURIComponent(params.get('default'))
+link.href = decodeURIComponent(getParam)
+input.value = decodeURIComponent(getParam)
 function setPermalinkValue () {
   var val = window.location.origin + window.location.pathname + '?default=' + encodeURIComponent(input.value);
   permalink.href = val;
