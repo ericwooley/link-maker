@@ -2,4 +2,4 @@
 
 JS coming soon
 
-<script src="https://raw.githubusercontent.com/ericwooley/link-maker/master/index.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/ericwooley/link-maker/master/index.js"></script>
