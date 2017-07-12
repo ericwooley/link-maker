@@ -3,8 +3,10 @@ Enter in a link that you can click, for easy testing of android intents, but may
 
 [Open here](https://ericwooley.github.io/link-maker)
 
+-- Ignore the stuff below this. Unless you are on the web page.
 
--- Ignore the stuff below this.
+Webapp code
+=============
 
 <input id="url" placeholder="Enter url" />
 <a id="link" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;"> - GO - </a>
