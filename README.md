@@ -17,6 +17,7 @@ function setPermalinkValue () {
   permalink.href = val;
   permalink.innerHTML = val;
 }
+setPermalinkValue()
 input.onchange = function () {
   link.href = input.value
   setPermalinkValue()
