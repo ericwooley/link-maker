@@ -13,7 +13,7 @@ var permaLink = document.getElementById('permalink')
 link.href = params.get('default')
 input.value = params.get('default')
 
-function setPermalinkValue () {
+var setPermalinkValue = () => {
   var val = window.location.origin + window.location.pathname + '?default=' + encodeURIComponent(input.value);
   permalink.href = val;
   permalink.innerHTML = val;
