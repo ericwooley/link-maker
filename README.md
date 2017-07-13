@@ -6,7 +6,7 @@ Enter in a link that you can click, for easy testing of android intents, but may
 -- Ignore the stuff below this
 
 <input id="url" placeholder="Enter url" style="display: block; padding: 10px 0 10px 0; width: 100%" />
-<a id="link" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center; padding: 20px; margin: 20px 0 20px 0;"> - GO - </a>
+<a id="link" style="display: block; padding: 10; border: 1px solid; text-align: center; padding: 20px; margin: 20px 0 20px 0;"> - GO - </a>
 <a id="permalink" target="_blank" style="display: block; padding: 10; border: 1px solid; text-align: center;" href=""></a>
 <script type="text/javascript">
 var getParam = location.href.split('?default=')[1]
